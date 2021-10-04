@@ -1,3 +1,5 @@
+package three;
+
 public class Product {
     public String name;
     public String status;

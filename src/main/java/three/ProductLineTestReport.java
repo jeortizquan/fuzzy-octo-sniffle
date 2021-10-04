@@ -1,3 +1,5 @@
+package three;
+
 class ProductLineTestReport {
 
     long correctCnt;      // number of correct products

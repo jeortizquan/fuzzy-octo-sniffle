@@ -1,11 +1,11 @@
+package three;
 
 import java.util.Random;
 
-public class ProductVerifierImpl implements ProductVerifier{
+public class ProductVerifierImpl implements ProductVerifier {
     private Random rnd;
     public ProductVerifierImpl() {
         this.rnd = new Random();
-
     }
 
     @Override

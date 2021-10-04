@@ -1,3 +1,5 @@
+package three;
+
 import java.util.Arrays;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
@@ -11,7 +13,7 @@ public class ExerciseThree {
         Supplier<Stream<Product>> productStream = () -> Arrays.stream(productBuilder.getProducts(500));
         ProductLineTestReport report = tester.test(productStream.get());
 
-        System.out.println("Product Tester Report");
+        System.out.println("three.Product Tester Report");
         System.out.println("=====================");
         System.out.println("Checked exceptions  : " + report.checkedExcCnt);
         System.out.println("Unchecked exceptions: " + report.uncheckedExcCnt);
